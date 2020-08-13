@@ -22,7 +22,7 @@ $response = $api->startL4("1.1.1.1", 80, 15, "TCPBYPASS", 1, 100000);
 ```
 ## Layer 7 Attack
 ```php
-/* Parameters : URL , Time , Method , Slots , Type, Ratelimit */
+/* Parameters : URL , Time , Method , Slots , Type, Ratelimit (true = enable, false = disabled) */
 $response = $api->startL7("https://example.com/", 15, "HTTP1", 1, "GET", false);
 ```
 ## Stop Attack
