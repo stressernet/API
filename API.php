@@ -14,8 +14,8 @@ class API {
 	* @param string $key
  	*/
 	
-	private $userID = "";
-	private $key = "";   
+	private $userID;
+	private $key;   
 	private $curl_handle = null;
 	
 	public function __construct($userID, $key){
