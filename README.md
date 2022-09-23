@@ -1,12 +1,12 @@
-# Instant-Stresser-API
-Sample API usage of Instant-Stresser.com
+# Stresser.NET API
+Sample API usage of https://stresser.net
 
 ## Requirements
 PHP version 5.x (+).<br/>
 Libcurl package.
 
 ## L4/L7 Methods Syntaxe
-Available here : https://instant-stresser.com/help/methodsdoc
+Available here : https://stresser.net/help/methodsdoc
 
 ## Authentication
 ```php
