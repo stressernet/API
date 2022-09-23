@@ -1,12 +1,4 @@
 <?php
-/*
- *  Instant-Stresser.com PHP API cURL Example.
- *  
- *  @author  MachiavelSST
- *  @link    https://instant-stresser.com/
- *
-*/
-
 class API {
 	
 	/**
